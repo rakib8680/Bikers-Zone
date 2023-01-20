@@ -15,7 +15,7 @@
 
     <!---------------------------------------------------- This is header --------------------------------------------------- -->
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary py-3">
             <div class="container-fluid">
                 <a class="navbar-brand fw-semibold " href="#">Bikers <span class="zone ">Zone</span> </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -74,7 +74,8 @@
                     <div class="row">
                         <div class="col-12 col-md-6 d-flex align-items-center justify-content-center">
                             <div>
-                                <h3 class="display-6 fw-semibold">Ride-on R15 V4 with Smile</h3>
+                                <h3 class="display-6 fw-semibold">Ride-on <span class="text-danger">R15</span> V4 with
+                                    Smile</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem sit quisquam fuga
                                     nisi?
                                     Nesciunt aperiam vero omnis nihil saepe eaque?</p>
@@ -154,7 +155,7 @@
         </section>
 
         <!-- new arrival section  -->
-        <section class="mt-5 bg-warning bg-opacity-10 py-2 px-4 rounded ">
+        <section class="mt-5 bg-warning bg-opacity-10 py-2 px-4 rounded pb-5">
             <h1 class="text-center mt-5 mb-5">New Arrival </h1>
 
             <div class="row row-cols-1 row-cols-md-3 g-4 ">
@@ -162,7 +163,7 @@
                     <div class="card h-100 bg-success bg-opacity-10">
                         <img src="images/bike-5.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title text-success">Kawasaki Ninja ZX-10R</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
                                 additional content. This content is a little bit longer.</p>
                         </div>
@@ -175,9 +176,9 @@
                     <div class="card h-100 bg-danger bg-opacity-10">
                         <img src="images/bike-6.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                                content.</p>
+                            <h5 class="card-title text-danger">BMW S 1000 RR</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer..</p>
                         </div>
                         <div class="card-footer">
                             <button class="btn btn-danger"> Purchase</button>
@@ -188,10 +189,9 @@
                     <div class="card h-100 bg-info bg-opacity-10">
                         <img src="images/bike-9.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title text-success">Ducati Panigale V4</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This card has even longer content than the first to show that equal
-                                height action.</p>
+                                additional content. This content is a little bit longer.</p>
                         </div>
                         <div class="card-footer">
                             <button class="btn btn-danger"> Purchase</button>
@@ -202,7 +202,7 @@
         </section>
 
         <!-- Happy Clients  -->
-        <section class="mt-5 py-5 bg-body-tertiary">
+        <section class="mt-5 py-5 bg-body-tertiary rounded">
             <h1 class="text-center  display-5 fw-semibold mb-5">Happy <span class="text-danger">Clients</span></h1>
 
 
@@ -266,11 +266,111 @@
                 </div>
             </div>
         </section>
+
+        <!--     FAQ section   -->
+        <section class="mt-5 py-5 px-5 bg-success bg-opacity-10 rounded">
+            <h1 class="display-5 text-center fw-semibold mt-2 "> Frequently Asked <span
+                    class="text-warning">Questions</span>
+            </h1>
+
+            <div class="row row-cols-1 row-cols-md-2 d-flex justify-content-center align-items-center g-4 mt-3">
+                <div class="col">
+                    <img class="    " src="images/faq.png" alt="">
+                </div>
+                <div class="col">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Accordion Item #1
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Accordion Item #2
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Accordion Item #3
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- -----------------------------------------------------This is footer-----------------------------------------------  -->
-    <footer>
-
+    <footer
+        class="mt-5 py-5 px-5 bg-dark rounded-bottom text-white d-flex justify-content-between align-items-center g-5">
+        <div>
+            <div class=" d-flex gap-4 mb-4">
+                <h4>Download Now</h4>
+                <h4>License</h4>
+            </div>
+            <div class="mb-5">
+                <ul class="d-flex list-unstyled gap-3 fs-5">
+                    <li>About</li>
+                    <li>Features</li>
+                    <li>Pricing</li>
+                    <li>Careers</li>
+                    <li>Help</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+            <p class="">© 2020 bike. All rights reserved by Rakib Khan</p>
+        </div>
+        <div>
+            <h4 class="mb-4 ">Get the App</h4>
+            <div>
+                <img class="w-75 mb-2" src="images/android.png" alt="">
+            </div>
+            <div>
+                <img class="w-75" src="images/ios.png" alt="">
+            </div>
+        </div>
     </footer>
 
 
