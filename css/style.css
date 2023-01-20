@@ -1,0 +1,18 @@
+
+
+.zone{
+    color: #dc3545;
+    font-size: 30px;
+}
+
+.carousel-control-prev-icon{
+    background-color: rgba(255, 0, 0, 0.415);
+}
+.carousel-control-next-icon{
+    background-color: rgba(255, 0, 0, 0.415);
+}
+
+hr{
+    width: 15%;
+    border:1px solid #dc3545;
+}
